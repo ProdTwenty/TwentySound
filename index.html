@@ -3,77 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twenty Sound - Venta de Beats</title>
+    <title>Twenty Sound</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
+            text-align: center;
+            margin-top: 50px;
         }
-        .beats-list {
-            text-align: left;
-            margin-top: 20px;
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
         }
-        .beat-item {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
+        h1 {
+            font-size: 2.5em;
+            margin: 0.5em 0;
         }
-        .beat-item:last-child {
-            border-bottom: none;
+        p {
+            font-size: 1.2em;
+            margin: 0.5em 0;
         }
-        .social-media {
-            margin-top: 20px;
+        .social-links {
+            margin: 1em 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        .social-media a {
-            color: #1da1f2;
+        .social-links a {
+            margin: 10px 0;
             text-decoration: none;
-            font-weight: bold;
+            color: #fff; /* Color del texto (blanco) */
+            background-color: #000; /* Color de fondo (negro) */
+            padding: 10px 20px;
+            border-radius: 20px; /* Bordes redondeados */
+            font-size: 1.5em;
+            transition: all 0.3s ease; /* Transición suave */
+        }
+        .social-links a:hover {
+            background-color: #333; /* Color de fondo más oscuro al pasar el mouse */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="https://via.placeholder.com/150" alt="Imagen de perfil" class="profile-image">
-        <h1>Bienvenido a Twenty Sound</h1>
-        <p>¡Hola! Soy Twenty, un joven prodigio de la música desde 2019, especializado en los vibrantes ritmos del trap, drill y pluggnb. A mis 15 años, mis beats se destacan por sus bajos profundos y envolventes. Inspirado por artistas como Khea, Lil Pump y Nle Choppa, estoy en constante búsqueda de nuevas sonoridades para ayudar a artistas a destacarse y brillar de manera única con mis producciones. Estoy aquí para transformar tus ideas en hits memorables.</p>
-        <p>Correo: <a href="mailto:nehuenguzman8@gmail.com">nehuenguzman8@gmail.com</a></p>
-
-        <h2>Licencias de Beats</h2>
-        <ul class="beats-list">
-            <li class="beat-item">
-                <strong>MP3:</strong> Licencia de por vida con mi tag de productor - <strong>$15 USD</strong>
-            </li>
-            <li class="beat-item">
-                <strong>WAV:</strong> Licencia de por vida con mi tag de productor - <strong>$20 USD</strong>
-            </li>
-            <li class="beat-item">
-                <strong>WAV + Stems:</strong> Licencia de por vida sin tag de productor - <strong>$40 USD</strong>
-            </li>
-        </ul>
-        
-        <p>Puedo hacer remakes de beats que te gustan pero salen muy caros y yo te los vendo a un precio más accesible.</p>
-
-        <div class="social-media">
-            <a href="https://www.instagram.com/prod.twenty/" target="_blank">Sígueme en Instagram</a>
-            <a href="https://www.youtube.com/channel/UCAdIEqxeQq2lKc2_Nh3wqUQ" target="_blank">Visita mi canal de YouTube</a>
-            <a href="https://open.spotify.com/intl-es/artist/2D74v7MuatFxoI08SvNONb?si=S9-SdYe5TYq98mdKZe9n0w" target="_blank">Escucha en Spotify</a>
-            <a href="https://soundcloud.com/nehuenstra-2000" target="_blank">Escucha en SoundCloud</a>
-
+        <img src="profile.jpg" alt="Foto de perfil" class="profile-image">
+        <h1>Twenty Sound</h1>
+        <p>Hola, soy Twenty, productor musical de trap, drill y pluggnb desde 2019. Tengo 15 años y me destaco por los bajos de mis beats. Me inspiran Khea, Lil Pump, Central Cee, Lucho Ssj, Blueface, Lil Tecca y Nle Choppa. Estoy dispuesto a aprender más y ayudar a artistas a sonar únicos con mis beats.</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/tu_usuario_instagram" target="_blank" class="fab fa-instagram" title="Instagram"> Instagram</a>
+            <a href="https://www.youtube.com/tu_usuario_youtube" target="_blank" class="fab fa-youtube" title="YouTube"> YouTube</a>
+            <a href="https://open.spotify.com/user/tu_usuario_spotify" target="_blank" class="fab fa-spotify" title="Spotify"> Spotify</a>
+            <a href="https://soundcloud.com/tu_usuario_soundcloud" target="_blank" class="fab fa-soundcloud" title="SoundCloud"> SoundCloud</a>
         </div>
     </div>
 </body>
